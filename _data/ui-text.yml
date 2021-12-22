@@ -1,0 +1,271 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "🌝Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "See more"
+  search_label               : "Toggle search"
+  toc_label                  : "C O N T E N T S"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Date:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+
+# Korean
+# ------
+ko: &DEFAULT_KO
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "페이지"
+  pagination_previous        : "이전"
+  pagination_next            : "다음"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "카테고리 Click"
+  search_label               :
+  toc_label                  : "목차"
+  ext_link_label             : "직접 링크"
+  less_than                  : "최대"
+  minute_read                : "분 소요"
+  share_on_label             : "공유하기"
+  meta_label                 :
+  tags_label                 : "태그:"
+  categories_label           : "카테고리:"
+  date_label                 : "Date:"
+  comments_label             : "댓글 남기기"
+  comments_title             : "댓글"
+  more_label                 : "더 보기"
+  related_label              : "참고"
+  follow_label               : "팔로우:"
+  feed_label                 : "피드"
+  powered_by                 : "Powered by"
+  website_label              : "웹사이트"
+  email_label                : "이메일"
+  recent_posts               : "Recent Posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "이메일은 공개되지 않습니다. 작성 필요 필드:"
+  comment_form_comment_label : "댓글"
+  comment_form_md_info       : "마크다운을 지원합니다."
+  comment_form_name_label    : "이름"
+  comment_form_email_label   : "이메일"
+  comment_form_website_label : "웹사이트(선택사항)"
+  comment_btn_submit         : "댓글 등록"
+  comment_btn_submitted      : "등록됨"
+  comment_success_msg        : "감사합니다! 댓글이 머지된 후 확인하실 수 있습니다."
+  comment_error_msg          : "댓글 등록에 문제가 있습니다. 필요 필드를 작성했는지 확인하고 다시 시도하세요."
+  loading_label              : "로딩중..."
+  search_label_text          :
+  search_placeholder_text    : "검색어를 입력하세요..."
+  results_found              : "개 결과 발견"
+  back_to_top                : "맨 위로 이동"
+ko-KR:
+  <<: *DEFAULT_KO
+
+# Vietnamese
+# ----------
+vi: &DEFAULT_VI
+  skip_links                 : "Đường dẫn tắt"
+  skip_primary_nav           : "Nhảy tới thanh điều hướng"
+  skip_content               : "Nhảy tới nội dung"
+  skip_footer                : "Nhảy tới chân trang"
+  page                       : "Trang"
+  pagination_previous        : "Trước"
+  pagination_next            : "Kế tiếp"
+  breadcrumb_home_label      : "Trang chủ"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menu"
+  search_label               : "Tìm kiếm"
+  toc_label                  : "Tại trang này"
+  ext_link_label             : "Đường dẫn trực tiếp"
+  less_than                  : "chỉ cần"
+  minute_read                : "phút để đọc"
+  share_on_label             : "Chia sẻ tại"
+  meta_label                 :
+  tags_label                 : "Thẻ:"
+  categories_label           : "Danh mục:"
+  date_label                 : "Ngày cập nhật:"
+  comments_label             : "Để lại bình luận"
+  comments_title             : "Bình luận"
+  more_label                 : "Mở rộng"
+  related_label              : "Có thể bạn cũng thích"
+  follow_label               : "Theo dõi:"
+  feed_label                 : "Feed"
+  powered_by                 : "Xây dựng trên nền tảng"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Bài viết mới"
+  undefined_wpm              : "Chưa định nghĩa thông số words_per_minute tại _config.yml"
+  comment_form_info          : "Email của bạn sẽ được giữ bí mật. Các phần bắt buộc được đánh dấu"
+  comment_form_comment_label : "Bình luận"
+  comment_form_md_info       : "Hỗ trợ Markdown."
+  comment_form_name_label    : "Tên"
+  comment_form_email_label   : "Địa chỉ email"
+  comment_form_website_label : "Website (không bắt buộc)"
+  comment_btn_submit         : "Gửi bình luận"
+  comment_btn_submitted      : "Đã được gửi"
+  comment_success_msg        : "Cảm ơn bạn đã bình luận! Bình luận sẽ xuất hiện sau khi được duyệt."
+  comment_error_msg          : "Rất tiếc, có lỗi trong việc gửi bình luận. Hãy đảm bảo toàn bộ các phần bắt buộc đã được điền đầy đủ và thử lại."
+  loading_label              : "Đang tải..."
+  search_label_text          : "Nhập từ khóa cần tìm..."
+  search_placeholder_text    : "Nhập từ khóa cần tìm..."
+  results_found              : "Kết quả tìm được"
+  back_to_top                : "Lên đầu trang"
+vi-VN:
+  <<: *DEFAULT_VI
+
+# Japanese
+# --------
+ja: &DEFAULT_JA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "ページ"
+  pagination_previous        : "前へ"
+  pagination_next            : "次へ"
+  breadcrumb_home_label      : "ホーム"
+  breadcrumb_separator       : "/"
+  menu_label                 : "メニュー"
+  search_label               :
+  toc_label                  : "目次"
+  ext_link_label             : "リンク"
+  less_than                  :
+  minute_read                :
+  share_on_label             : "共有"
+  meta_label                 :
+  tags_label                 : "タグ:"
+  categories_label           : "カテゴリー:"
+  date_label                 : "更新日時:"
+  comments_label             : "コメントする"
+  comments_title             : "コメント"
+  more_label                 : "さらに詳しく"
+  related_label              : "関連記事"
+  follow_label               : "フォロー"
+  feed_label                 :
+  powered_by                 :
+  website_label              :
+  email_label                :
+  recent_posts               : "最近の投稿"
+  undefined_wpm              : "パラメータ words_per_minute が _config.yml で定義されていません"
+  comment_form_info          : "メールアドレスが公開されることはありません。次の印のある項目は必ず入力してください:"
+  comment_form_comment_label : "コメント"
+  comment_form_md_info       : "Markdown を使用できます"
+  comment_form_name_label    : "名前"
+  comment_form_email_label   : "メールアドレス"
+  comment_form_website_label : "URL (任意)"
+  comment_btn_submit         : "コメントを送信する"
+  comment_btn_submitted      : "送信しました"
+  comment_success_msg        : "コメントありがとうございます！　コメントは承認されるとページに表示されます。"
+  comment_error_msg          : "送信エラーです。必須項目がすべて入力されていることを確認して再送信してください。"
+  loading_label              : "読み込み中..."
+  search_label_text          :
+  search_placeholder_text    : "検索キーワードを入力してください..."
+  results_found              : "件"
+ja-JP:
+  <<: *DEFAULT_JA
+
+# Thailand
+# --------------
+th: &DEFAULT_TH
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "หน้า"
+  pagination_previous        : "ก่อนหน้า"
+  pagination_next            : "ถัดไป"
+  breadcrumb_home_label      : "หน้าแรก"
+  breadcrumb_separator       : "/"
+  menu_label                 : "พับเมนู"
+  search_label               : "พับการค้นหา"
+  toc_label                  : "บนหน้านี้"
+  ext_link_label             : "ลิงก์โดยตรง"
+  less_than                  : "น้อยกว่า"
+  minute_read                : "นาที ในการอ่าน"
+  share_on_label             : "แชร์ไปที่"
+  meta_label                 :
+  tags_label                 : "แท็ก:"
+  categories_label           : "หมวดหมู่:"
+  date_label                 : "อัพเดตล่าสุด:"
+  comments_label             : "แสดงความคิดเห็น"
+  comments_title             : "ความคิดเห็น"
+  more_label                 : "อ่านต่อ"
+  related_label              : "คุณอาจจะชอบสิ่งนี้"
+  follow_label               : "ติดตาม:"
+  feed_label                 : "ฟืดข่าว"
+  powered_by                 : "ขับเคลื่อนโดย"
+  website_label              : "เว็บไซต์"
+  email_label                : "อีเมล"
+  recent_posts               : "โพสล่าสุด"
+  undefined_wpm              : "ไม่สามารถระบุพารามิเตอร์ words_per_minute ได้ใน _config.yml"
+  comment_form_info          : "อีเมลของคุณไม่สามารถโพสสาธารณะได้ กรุณากรอกช่องที่ระบุด้วยเครื่องหมายดอกจันไว้"
+  comment_form_comment_label : "แสดงความคิดเห็น"
+  comment_form_md_info       : "มาร์กดาวน์ได้รับการสนับสนุน"
+  comment_form_name_label    : "ชื่อ"
+  comment_form_email_label   : "ที่อยู่อีเมล"
+  comment_form_website_label : "เว็บไซต์ (ตัวเลือก)"
+  comment_btn_submit         : "ส่งความคิดเห็น"
+  comment_btn_submitted      : "ส่งเรียบร้อยแล้ว"
+  comment_success_msg        : "ขอบคุณสำหรับการแสดงความคิดเห็น! ความคิดเห็นจะได้รับการแสดงหลังจากได้รับการยืนยัน"
+  comment_error_msg          : "ขออภัย, มีบางอย่างผิดพลาดจากการส่งแบบฟอร์ม กรุณาตรวจทานทุกช่อง และลองส่งใหม่อีกครั้ง"
+  loading_label              : "กำลังโหลด..."
+  search_label_text          :
+  search_placeholder_text    : "ใส่คำค้นหาของคุณ..."
+  results_found              : "ผลการค้นหา พบ"
+  back_to_top                : "กลับด้านบน"
+th-TH:
+  <<: *DEFAULT_TH
+
+# Another locale
+# --------------
+#
