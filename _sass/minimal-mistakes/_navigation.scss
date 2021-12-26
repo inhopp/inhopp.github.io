@@ -527,7 +527,7 @@
   padding: 0.25rem 0;
   font-size: $type-size-3;
   font-family: $serif;
-  color: #6f92ce;//mix(#fff,$primary-color,35%);
+  color: $primary-color;//mix(#fff,$primary-color,35%);
   border-bottom: 1px solid $border-color;
 }
 
@@ -538,7 +538,7 @@
 
 .toc {
   font-family: $cute;
-  color: #777575;
+  color: #acaaaa;
   background-color: $background-color;
   border: 1px solid $border-color;
   border-radius: $border-radius;
@@ -548,7 +548,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-5;
-    background: mix(#fff,$primary-color,30%);
+    background: mix(#fff,#acaaaa,30%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }

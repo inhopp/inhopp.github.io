@@ -328,13 +328,12 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: #bb90e2;
+  background-color: #acaaaa;
   font-family: $serif;
-  color: $gray;
-
+  color: #fff;
   &:hover {
     text-decoration: none;
-    color: #fff; /* 커서 댈 때 색깔 */
+    color: #FFBF00; /* 커서 댈 때 색깔 */
   }
 }
 
@@ -346,13 +345,13 @@ body {
   text-decoration: none;
   border: 1px solid $background-color;
   border-radius: $border-radius;
-  background-color: mix(#fff, #bb90e2, 18%);
+  background-color: mix(#fff, #acaaaa, 18%);
   font-family: $serif;
-  color: $gray;
+  color: #fff;
 
   &:hover {
     text-decoration: none;
-    color: mix(#fff, $text-color, 40%); /* 커서 댈 때 색깔 */
+    color: mix(#fff, #FFBF00, 40%); /* 커서 댈 때 색깔 */
   }
 }
 
