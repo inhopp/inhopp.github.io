@@ -1,5 +1,5 @@
 ---
-title:  "Pseudo inverse 이해하기 (feat.SVD)" 
+title:  "Pseudo-inverse 이해하기 (feat.SVD)" 
 
 categories:
   -  Linear-Algebra
