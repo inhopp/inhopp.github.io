@@ -11,7 +11,7 @@
         <span class="nav__sub-title">Math</span>
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "Linear-Algebra" %}
+                {% if category[0] == "Linear Algebra" %}
                     <li><a href="/categories/linear-algebra" class="">선형대수({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
