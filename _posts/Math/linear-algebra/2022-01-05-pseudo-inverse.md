@@ -1,10 +1,10 @@
 ---
-title:  "Pseudo-inverse 이해하기 (feat.SVD)" 
+title:  "Pseudo-Inverse 이해하기 (feat.SVD)" 
 
 categories:
   -  Linear Algebra
 tags:
-  - [Linear Algebra, Math, SVD]
+  - [Linear Algebra, Math, SVD, ML, Pseudo-Inverse]
 
 toc: true
 toc_sticky: true
