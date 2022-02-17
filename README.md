@@ -3,4 +3,4 @@
 <https://inhopp.github.io>
 
 ---
-<https://ansohxxn.github.io> 블로그 코드를 사용했습니다.
+<https://ansohxxn.github.io> 블로그 코드를 참고했습니다.
