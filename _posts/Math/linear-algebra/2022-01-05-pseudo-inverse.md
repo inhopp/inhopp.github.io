@@ -19,9 +19,9 @@ last_modified_at: 2022-01-05
 
 # 📘 Pseudo inverse
 
-## 4 Fundamental subspaces
-## Meaning of SVD
-## Pseudo inverse
+- 4 Fundamental subspaces
+- Meaning of SVD
+- Pseudo inverse
 
 
 <br>

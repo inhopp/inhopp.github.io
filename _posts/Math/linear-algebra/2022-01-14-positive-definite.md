@@ -19,10 +19,10 @@ last_modified_at: 2022-01-14
 
 # 📘 Pseudo inverse
 
-## Optimization
-## Hessian Matrix
-## Positive Definite
-## Principal Axis Theorem
+- Optimization
+- Hessian Matrix
+- Positive Definite
+- Principal Axis Theorem
 
 
 <br>
