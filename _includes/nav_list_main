@@ -66,6 +66,9 @@
                     {% if category[0] == "Job" %}
                         <li><a href="/categories/job" class="">취업({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "ect" %}
+                        <li><a href="/categories/ect" class="">잡담({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
 
