@@ -55,7 +55,7 @@
                         <li><a href="/categories/paper" class="">논문리뷰({{category[1].size}})</a></li>
                     {% endif %}
                     {% if category[0] == "TF_Tutorial" %}
-                        <li><a href="/categories/tutorial" class="">TF_Tutorial({{category[1].size}})</a></li>
+                        <li><a href="/categories/tutorial" class="">Model_Tutorial({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
