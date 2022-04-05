@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "등딱지빌런"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안녕하세요."
+  bio              : "안녕하세요. 수학과 컴퓨터과학을 공부한 정인호입니다."
   #location         : "Seoul, South Korea"
   links:
     - label: "Email"
