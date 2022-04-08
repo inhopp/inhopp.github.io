@@ -60,6 +60,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">DE</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "SQL" %}
+                        <li><a href="/categories/sql" class="">SQL({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Ect</span>
             <ul>
                 {% for category in site.categories %}
