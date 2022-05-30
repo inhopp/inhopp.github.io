@@ -20,7 +20,7 @@
             {% endfor %}
         </ul>
 
-        <span class="nav__sub-title">C++</span>
+        <span class="nav__sub-title">Programming</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
@@ -32,15 +32,11 @@
         <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DataStructure" %}
-                        <li><a href="/categories/data-structure" class="">자료구조({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "Network" %}
                         <li><a href="/categories/network" class="">네트워크({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "OS" %}
+                        <li><a href="/categories/os" class="">운영체제({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
