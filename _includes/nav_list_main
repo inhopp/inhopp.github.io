@@ -38,6 +38,9 @@
                     {% if category[0] == "OS" %}
                         <li><a href="/categories/os" class="">운영체제({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "Vision" %}
+                        <li><a href="/categories/vision" class="">컴퓨터비전({{category[1].size}})</a></li>
+                    {% endif %}                    
                 {% endfor %}
             </ul>
             
