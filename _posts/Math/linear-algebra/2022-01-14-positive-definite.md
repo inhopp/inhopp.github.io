@@ -4,7 +4,7 @@ title:  "Positive Definite & Convexity"
 categories:
   -  Linear Algebra
 tags:
-  - [Linear Algebra, Math, ML, Positive-Definite]
+  - [Math]
 
 toc: true
 toc_sticky: true

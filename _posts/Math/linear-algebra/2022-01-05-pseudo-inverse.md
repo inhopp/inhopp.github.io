@@ -4,7 +4,7 @@ title:  "Pseudo-Inverse 이해하기 (feat.SVD)"
 categories:
   -  Linear Algebra
 tags:
-  - [Linear Algebra, Math, SVD, ML, Pseudo-Inverse]
+  - [Math]
 
 toc: true
 toc_sticky: true
