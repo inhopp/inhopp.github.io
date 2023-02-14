@@ -1,7 +1,7 @@
 ---
-title: "Git&Linux"
+title: "Git-Linux"
 layout: archive
-permalink: categories/git&linux
+permalink: categories/git-linux
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Git&Linux %}
+{% assign posts = site.categories.Git-Linux %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

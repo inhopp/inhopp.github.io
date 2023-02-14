@@ -26,8 +26,8 @@
                     {% if category[0] == "Cpp" %}
                         <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
                     {% endif %}
-                    {% if category[0] == "Git&Linux" %}
-                        <li><a href="/categories/git&linux" class="">Git/Linux({{category[1].size}})</a></li>
+                    {% if category[0] == "Git-Linux" %}
+                        <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
