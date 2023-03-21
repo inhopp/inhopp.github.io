@@ -47,14 +47,17 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">PL</span>
+        <span class="nav__sub-title">ML</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
+                    {% if category[0] == "ML" %}
+                        <li><a href="/categories/ml" class="">머신러닝&딥러닝({{category[1].size}})</a></li>
                     {% endif %}
-                    {% if category[0] == "Git-Linux" %}
-                        <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
+                    {% if category[0] == "Paper" %}
+                        <li><a href="/categories/paper" class="">논문리뷰({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "TF_Tutorial" %}
+                        <li><a href="/categories/tutorial" class="">Model_Tutorial({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
