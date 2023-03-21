@@ -68,6 +68,9 @@
                     {% if category[0] == "Compute Shader" %}
                         <li><a href="/categories/compute-shader" class="">Compute Shader({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "HLSL" %}
+                    <li><a href="/categories/hlsl" class="">HLSL({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
