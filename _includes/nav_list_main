@@ -73,7 +73,7 @@
                     {% endif %}
                     {% if category[0] == "HLSL" %}
                     <li><a href="/categories/hlsl" class="">HLSL({{category[1].size}})</a></li>
-                {% endif %}
+                    {% endif %}
                 {% endfor %}
             </ul>
 
