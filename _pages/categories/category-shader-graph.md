@@ -1,7 +1,7 @@
 ---
-title: "HLSL"
+title: "Shader Graph"
 layout: archive
-permalink: categories/hlsl
+permalink: categories/shader-graph
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.HLSL %}
+{% assign posts = site.categories.['Shader Graph'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
