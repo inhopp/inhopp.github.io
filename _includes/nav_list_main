@@ -1,107 +1,109 @@
 {% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
-  <ul class="nav__items" id="category_tag_menu">
-      <li>
-            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
-      </li>
-      <li>
-        <span class="nav__sub-title">Math</span>
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
+    <ul class="nav__items" id="category_tag_menu">
+        <li>
+            📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span
+                    style="font-family:'Coming Soon';">{{sum}}</style> <span
+                        style="font-family:'Cafe24Oneprettynight';">개</style>
+        </li>
+        <li>
+            <span class="nav__sub-title">Math</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Linear Algebra" %}
-                        <li><a href="/categories/linear-algebra" class="">선형대수({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Combinatorics" %}
-                        <li><a href="/categories/combinatorics" class="">조합론({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Linear Algebra" %}
+                <li><a href="/categories/linear-algebra" class="">선형대수({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Combinatorics" %}
+                <li><a href="/categories/combinatorics" class="">조합론({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">PL</span>
+            <span class="nav__sub-title">PL</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Git-Linux" %}
-                        <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        
-        <span class="nav__sub-title">CS</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Network" %}
-                        <li><a href="/categories/network" class="">네트워크({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "OS" %}
-                        <li><a href="/categories/os" class="">운영체제({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Vision" %}
-                        <li><a href="/categories/vision" class="">컴퓨터비전({{category[1].size}})</a></li>
-                    {% endif %}                    
+                {% if category[0] == "Cpp" %}
+                <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Git-Linux" %}
+                <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">ML</span>
+            <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ML" %}
-                        <li><a href="/categories/ml" class="">머신러닝&딥러닝({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Paper" %}
-                        <li><a href="/categories/paper" class="">논문리뷰({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "TF_Tutorial" %}
-                        <li><a href="/categories/tutorial" class="">Model_Tutorial({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            
-        <span class="nav__sub-title">Unity</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Unity" %}
-                        <li><a href="/categories/unity" class="">unity({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Shader Graph" %}
-                    <li><a href="/categories/shader-graph" class="">Shader Graph({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Compute Shader" %}
-                        <li><a href="/categories/compute-shader" class="">Compute Shader({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Network" %}
+                <li><a href="/categories/network" class="">네트워크({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "OS" %}
+                <li><a href="/categories/os" class="">운영체제({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Vision" %}
+                <li><a href="/categories/vision" class="">컴퓨터비전({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">DE</span>
+            <span class="nav__sub-title">ML</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "SQL" %}
-                        <li><a href="/categories/sql" class="">SQL({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "ML" %}
+                <li><a href="/categories/ml" class="">머신러닝&딥러닝({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Paper" %}
+                <li><a href="/categories/paper" class="">논문리뷰({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "TF_Tutorial" %}
+                <li><a href="/categories/tutorial" class="">Model_Tutorial({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Ect</span>
+            <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Job" %}
-                        <li><a href="/categories/job" class="">취업({{category[1].size}})</a></li>
-                    {% endif %}
-                    {% if category[0] == "Ect" %}
-                        <li><a href="/categories/ect" class="">잡담({{category[1].size}})</a></li>
-                    {% endif %}
+                {% if category[0] == "Unity" %}
+                <li><a href="/categories/unity" class="">unity({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Shader Graph" %}
+                <li><a href="/categories/shader-graph" class="">Shader Graph({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Compute Shader" %}
+                <li><a href="/categories/compute-shader" class="">Compute Shader({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-      <li>	
-            <br>      
-            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Finhopp.github.io&count_bg=%2388A4D3&title_bg=%23555555&icon=linux.svg&icon_color=%23F9F9F9&title=visitors&edge_flat=false"/>
-      </li>
-  </ul>
+
+            <span class="nav__sub-title">DE</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "SQL" %}
+                <li><a href="/categories/sql" class="">SQL({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            <span class="nav__sub-title">Ect</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Job" %}
+                <li><a href="/categories/job" class="">취업({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Ect" %}
+                <li><a href="/categories/ect" class="">잡담({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <br>
+            <img
+                src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Finhopp.github.io&count_bg=%2388A4D3&title_bg=%23555555&icon=linux.svg&icon_color=%23F9F9F9&title=visitors&edge_flat=false" />
+        </li>
+    </ul>
 </nav>
-
