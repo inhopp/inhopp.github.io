@@ -68,7 +68,7 @@
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Unity" %}
-                <li><a href="/categories/unity" class="">unity({{category[1].size}})</a></li>
+                <li><a href="/categories/unity" class="">Unity({{category[1].size}})</a></li>
                 {% endif %}
                 {% if category[0] == "Shader Graph" %}
                 <li><a href="/categories/shader-graph" class="">Shader Graph({{category[1].size}})</a></li>
