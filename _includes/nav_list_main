@@ -16,8 +16,14 @@
                 {% if category[0] == "Linear Algebra" %}
                 <li><a href="/categories/linear-algebra" class="">선형대수({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "Differential Geometry" %}
+                <li><a href="/categories/differential-geometry" class="">미분기하({{category[1].size}})</a></li>
+                {% endif %}
                 {% if category[0] == "Combinatorics" %}
                 <li><a href="/categories/combinatorics" class="">조합론({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Analysis" %}
+                <li><a href="/categories/analysis" class="">해석학({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
