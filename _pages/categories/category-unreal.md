@@ -1,7 +1,7 @@
 ---
-title: "Compute Shader"
+title: "Unreal"
 layout: archive
-permalink: categories/compute-shader
+permalink: categories/unreal
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Compute Shader'] %}
+{% assign posts = site.categories.Unreal %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

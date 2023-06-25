@@ -1,7 +1,7 @@
 ---
-title: "Shader Graph"
+title: "DirectX"
 layout: archive
-permalink: categories/shader-graph
+permalink: categories/directx
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Shader Graph'] %}
+{% assign posts = site.categories.DirectX %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

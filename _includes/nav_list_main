@@ -70,17 +70,17 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Unity</span>
+            <span class="nav__sub-title">Graphics</span>
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Unity" %}
                 <li><a href="/categories/unity" class="">Unity({{category[1].size}})</a></li>
                 {% endif %}
-                {% if category[0] == "Shader Graph" %}
-                <li><a href="/categories/shader-graph" class="">Shader Graph({{category[1].size}})</a></li>
+                {% if category[0] == "Unreal" %}
+                <li><a href="/categories/unreal" class="">Unreal({{category[1].size}})</a></li>
                 {% endif %}
-                {% if category[0] == "Compute Shader" %}
-                <li><a href="/categories/compute-shader" class="">Compute Shader({{category[1].size}})</a></li>
+                {% if category[0] == "DirectX" %}
+                <li><a href="/categories/directx" class="">DirectX({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
