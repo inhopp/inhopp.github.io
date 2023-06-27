@@ -70,7 +70,7 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Graphics</span>
+            <span class="nav__sub-title">Engine</span>
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Unity" %}
@@ -79,6 +79,12 @@
                 {% if category[0] == "Unreal" %}
                 <li><a href="/categories/unreal" class="">Unreal({{category[1].size}})</a></li>
                 {% endif %}
+                {% endfor %}
+            </ul>
+
+            <span class="nav__sub-title">Graphics</span>
+            <ul>
+                {% for category in site.categories %}
                 {% if category[0] == "DirectX" %}
                 <li><a href="/categories/directx" class="">DirectX({{category[1].size}})</a></li>
                 {% endif %}
