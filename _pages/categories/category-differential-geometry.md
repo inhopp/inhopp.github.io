@@ -1,7 +1,7 @@
 ---
 title: "Differential Geometry"
 layout: archive
-permalink: categories/differential geometry
+permalink: categories/differential-geometry
 author_profile: true
 sidebar_main: true
 ---
