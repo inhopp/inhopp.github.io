@@ -85,8 +85,8 @@
             <span class="nav__sub-title">Graphics</span>
             <ul>
                 {% for category in site.categories %}
-                {% if category[0] == "DirectX" %}
-                <li><a href="/categories/directx" class="">DirectX({{category[1].size}})</a></li>
+                {% if category[0] == "Graphics" %}
+                <li><a href="/categories/graphics" class="">그래픽스({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
