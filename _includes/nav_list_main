@@ -91,6 +91,16 @@
                 {% endfor %}
             </ul>
 
+            <span class="nav__sub-title">Game</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Game" %}
+                <li><a href="/categories/2d-platformer" class="">2D-Platformer({{category[1].size}})</a></li>
+                {% endif %}
+
+                {% endfor %}
+            </ul>
+
             <span class="nav__sub-title">DE</span>
             <ul>
                 {% for category in site.categories %}
