@@ -91,7 +91,7 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Game</span>
+            <!-- <span class="nav__sub-title">Game</span>
             <ul>
                 {% for category in site.categories %}
                 {% if category[0] == "Game" %}
@@ -99,7 +99,7 @@
                 {% endif %}
 
                 {% endfor %}
-            </ul>
+            </ul> -->
 
             <span class="nav__sub-title">DE</span>
             <ul>
