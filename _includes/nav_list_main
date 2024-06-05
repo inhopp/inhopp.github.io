@@ -53,7 +53,7 @@
                 <li><a href="/categories/vision" class="">컴퓨터비전({{category[1].size}})</a></li>
                 {% endif %}
                 {% if category[0] == "Server" %}
-                <li><a href="/categories/vision" class="">게임서버({{category[1].size}})</a></li>
+                <li><a href="/categories/server" class="">게임서버({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
