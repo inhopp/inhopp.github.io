@@ -37,6 +37,9 @@
                 {% if category[0] == "Git-Linux" %}
                 <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "CMake" %}
+                <li><a href="/categories/cmake" class="">CMake({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
