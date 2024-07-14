@@ -94,6 +94,9 @@
                 {% if category[0] == "Graphics" %}
                 <li><a href="/categories/graphics" class="">그래픽스({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "OpenGL" %}
+                <li><a href="/categories/opengl" class="">OpenGL({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
 
