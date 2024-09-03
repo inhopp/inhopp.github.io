@@ -1,7 +1,7 @@
 ---
-title: "Unreal"
+title: "Unreal-01"
 layout: archive
-permalink: categories/unreal
+permalink: categories/unreal-01
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Unreal %}
+{% assign posts = site.categories.Unreal-01 %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

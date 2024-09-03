@@ -76,18 +76,7 @@
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Engine</span>
-            <ul>
-                {% for category in site.categories %}
-                {% if category[0] == "Unity" %}
-                <li><a href="/categories/unity" class="">Unity({{category[1].size}})</a></li>
-                {% endif %}
-                {% if category[0] == "Unreal" %}
-                <li><a href="/categories/unreal" class="">Unreal({{category[1].size}})</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-
+            
             <span class="nav__sub-title">Graphics</span>
             <ul>
                 {% for category in site.categories %}
@@ -96,6 +85,18 @@
                 {% endif %}
                 {% if category[0] == "OpenGL" %}
                 <li><a href="/categories/opengl" class="">OpenGL({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            
+            <span class="nav__sub-title">Engine</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Unity" %}
+                <li><a href="/categories/unity" class="">Unity({{category[1].size}})</a></li>
+                {% endif %}
+                {% if category[0] == "Unreal-01" %}
+                <li><a href="/categories/unreal-01" class="">Unreal Lecture I({{category[1].size}})</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
