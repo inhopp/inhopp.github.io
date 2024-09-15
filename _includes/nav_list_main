@@ -86,6 +86,9 @@
                 {% if category[0] == "OpenGL" %}
                 <li><a href="/categories/opengl" class="">OpenGL({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "Mini_Project" %}
+                <li><a href="/categories/project" class="">Mini_Project({{category[1].size}})</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             
