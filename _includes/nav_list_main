@@ -34,6 +34,9 @@
                 {% if category[0] == "Cpp" %}
                 <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "Swift" %}
+                <li><a href="/categories/swift" class="">Swift({{category[1].size}})</a></li>
+                {% endif %}
                 {% if category[0] == "Git-Linux" %}
                 <li><a href="/categories/git-linux" class="">Git/Linux({{category[1].size}})</a></li>
                 {% endif %}
@@ -86,6 +89,9 @@
                 {% if category[0] == "OpenGL" %}
                 <li><a href="/categories/opengl" class="">OpenGL({{category[1].size}})</a></li>
                 {% endif %}
+                {% if category[0] == "Metal" %}
+                <li><a href="/categories/metal" class="">Metal({{category[1].size}})</a></li>
+                {% endif %} 
                 {% if category[0] == "Mini_Project" %}
                 <li><a href="/categories/project" class="">Mini_Project({{category[1].size}})</a></li>
                 {% endif %}
